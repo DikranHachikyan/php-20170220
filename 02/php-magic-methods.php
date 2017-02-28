@@ -21,7 +21,8 @@
 <?php echo $user->showInfo(); ?>
 <hr>
 <h2>Login Time:<?php echo $user->getLoginTime(); ?></h2>
-
+<hr>
+<h2><?php echo 'User:'.$user;?></h2>
 <hr>
 <pre><?php var_export($user); ?></pre>
 </body>

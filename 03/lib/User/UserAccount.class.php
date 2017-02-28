@@ -1,6 +1,6 @@
 <?php
 
-
+namespace User;
 class UserAccount{
 	//данни на класа
 	protected $userName='john';
